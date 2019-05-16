@@ -123,6 +123,7 @@ sys.path.insert(0,"/var/www/catalog")
 
 from app import app as application
 ```
+```
 sudo apt-get install python-pip
 sudo -H pip install virtualenv
 virtualenv env
@@ -130,6 +131,7 @@ source env/bin/activate
 pip install -r requirements.txt
 pip install flask packaging oauth2client redis passlib flask-httpauth
 pip install sqlalchemy flask-sqlalchemy psycopg2 bleach requests
+```
 ```
 
 
