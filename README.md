@@ -138,7 +138,7 @@ pip install sqlalchemy flask-sqlalchemy psycopg2 bleach requests
 #### 11. Configure apache server
 
 sudo nano /etc/apache2/sites-enabled/000-default.conf
-```
+
 Then add the following content:
 ```
 # serve catalog app
@@ -160,7 +160,7 @@ Then add the following content:
   LogLevel warn
   CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-
+```
 
 #### 12. Reload & Restart Apache Server
 ```
