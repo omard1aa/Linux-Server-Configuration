@@ -135,15 +135,6 @@ pip install sqlalchemy flask-sqlalchemy psycopg2 bleach requests
 ```
 
 
-#### 11. `Extra Step` Clone the Neighborhood map app from GitHub
-```
-cd /var/www/
-sudo mkdir map
-sudo chown grader:grader map
-git clone https://github.com/AliMahmoud7/neighborhood-map-fsnd
-```
-Go to [<Instance_IP>:8000](<Instance_IP>:8000/) to view it
-
 #### 12. Configure apache server
 ```
 sudo nano /etc/apache2/sites-enabled/000-default.conf
