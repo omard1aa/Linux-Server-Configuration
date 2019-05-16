@@ -132,11 +132,11 @@ pip install -r requirements.txt
 pip install flask packaging oauth2client redis passlib flask-httpauth
 pip install sqlalchemy flask-sqlalchemy psycopg2 bleach requests
 ```
-```
 
 
-#### 12. Configure apache server
-```
+
+#### 11. Configure apache server
+
 sudo nano /etc/apache2/sites-enabled/000-default.conf
 ```
 Then add the following content:
@@ -162,7 +162,7 @@ Then add the following content:
 </VirtualHost>
 
 
-#### 13. Reload & Restart Apache Server
+#### 12. Reload & Restart Apache Server
 ```
 sudo service apache2 reload
 sudo service apache2 restart
