@@ -5,7 +5,7 @@
 
 * IP Address: [http://35.159.20.32]()
 * SSH Port: 22
-* URL using DNS: [http://35.159.20.32/]()
+* URL using DNS: [http://35.159.20.32/](http://35.159.20.32/)
 
 
 ### Steps Followed to Configure the server
