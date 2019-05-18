@@ -3,9 +3,10 @@
 ### About the project
 > A baseline installation of a Linux distribution on a virtual machine and prepare it to host web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers
 
+
 * IP Address: [http://35.159.20.32]()
-* SSH Port: 22
 * URL using DNS: [http://35.159.20.32/](http://35.159.20.32/)
+* SSH Port: 22
 
 
 ### Steps Followed to Configure the server
